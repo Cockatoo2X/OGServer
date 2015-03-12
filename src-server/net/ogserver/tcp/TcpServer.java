@@ -1,7 +1,7 @@
 package net.ogserver.tcp;
 
 import net.ogserver.common.Config;
-import net.ogserver.gui.GUI;
+import net.ogserver.http.WebServer;
 
 /*
 * Copyright (c) 2015
@@ -64,8 +64,8 @@ public class TcpServer {
 		TcpServer.nagles = nagles;
 		TcpServer.tcpProcessor = new Thread(new TcpProcessor());
 		TcpServer.tcpProcessor.start();
-		if(Config.launchGUI) {
-			new GUI();
+		if(Config.httpEnabled) {
+			new WebServer();
 		}
 	}
 	

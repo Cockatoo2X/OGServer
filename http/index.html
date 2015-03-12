@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>OGServer Statistics</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				setInterval(function() {
+					$.post('/', {request: 0}, function(data) {
+						$(document.body).html(data);
+					});
+				}, 1000);
+			});
+		</script>
+	</head>
+	
+	<body>
+	</body>
+	
+</html>

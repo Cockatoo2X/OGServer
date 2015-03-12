@@ -64,10 +64,10 @@ public class Config {
 	public static boolean debugging = false;
 	
 	/**
-	 * Rather or not the server launches a GUI using the Java {@link JFrame} class
+	 * Rather or not the server launches a WebServer using the Java {@link HttpServer} class
 	 * to show real-time statistics, this is just a base for the real-time web administration.
 	 * 
 	 * Default Value: false.
 	 */
-	public static boolean launchGUI = false;
+	public static boolean httpEnabled = false;
 }
