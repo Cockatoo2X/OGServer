@@ -29,6 +29,15 @@ import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
+/**
+ * This class is in Alpha State and should not be referenced for any type
+ * of project. Just a quickly thrown together test to make sure everything
+ * in the sun/net package works as intended.
+ * 
+ * Documentation will come later (After a revamp). 
+ *  
+ * @author Christian Tucker
+ */
 public class WebHandler implements HttpHandler {
 
 	private static String EOL = "<br>";

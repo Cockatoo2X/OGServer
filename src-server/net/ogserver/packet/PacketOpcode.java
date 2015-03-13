@@ -31,18 +31,18 @@ import java.lang.annotation.Target;
  * annotation declares which id the packet will be handled by.
  * 
  * Ex.
+ * 
  * <pre>
  *  --+--------------+------------------------+---
  *    |  Packet ID   |     @PacketOpcode      |
  *  --+--------------+------------------------+---
  *  --+--------------+------------------------+---
- *    |      1       |  @PacketOpcode(1)    |
+ *    |      1       |  @PacketOpcode(1)      |
  *  --+--------------+------------------------+---
- *    |      2       |  @PacketOpcode(2)    |
+ *    |      2       |  @PacketOpcode(2)      |
  *  --+--------------+------------------------+---
- *    |      3       |  @PacketOpcode(3)    |
+ *    |      3       |  @PacketOpcode(3)      |
  *  --+--------------+------------------------+---
- *  <pre>
  *  
  * @author Christian Tucker
  */

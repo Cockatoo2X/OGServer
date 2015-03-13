@@ -31,6 +31,15 @@ import net.ogserver.common.Session;
 
 import com.sun.net.httpserver.HttpServer;
 
+/**
+ * This class is in Alpha State and should not be referenced for any type
+ * of project. Just a quickly thrown together test to make sure everything
+ * in the sun/net package works as intended.
+ * 
+ * Documentation will come later (After a revamp). 
+ *  
+ * @author Christian Tucker
+ */
 public class WebServer implements Runnable {
 
 	private final static ScheduledExecutorService serverTick = Executors.newScheduledThreadPool(1);
